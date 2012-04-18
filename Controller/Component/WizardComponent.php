@@ -147,8 +147,21 @@ class WizardComponent extends Component {
  * @access public
  */
 	var $components = array('Session');
-	
-	
+
+/**
+ * Holds a reference to the controller
+ *
+ * @var object
+ */
+	public $controller = null;
+
+/**
+ * Constructor for 2.x
+ *
+ * @param ComponentCollection $collection 
+ * @param string $settings 
+ * @author David Kullmann
+ */
 	function __construct(ComponentCollection $collection, $settings = array()) {
 		$this->_set($settings);
 		parent::__construct($collection, $settings);
