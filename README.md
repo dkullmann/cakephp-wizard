@@ -2,9 +2,13 @@
 
 The Wizard plugin for CakePHP automates several aspects of multi-page forms including data persistence, form preparation and unique data processing, wizard resetting (manual and automatic), user navigation, and plot-branching navigation while maintaining flexibility with custom validation and completion callbacks.
 
+## 2.x Branch
+
+This 2.x branch has been updated to support 2.0 and 2.1, please send me any pull requests or submit issues if you find them.
+
 ## Installation
 
-* Clone/Copy the files in this directory into `app/plugins/wizard`
+* Clone/Copy the files in this directory into `app/Plugin/Wizard`
 * Include the wizard component in your controller:
    * `var $components = array('Wizard.Wizard');`
 
